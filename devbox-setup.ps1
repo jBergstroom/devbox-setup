@@ -17,14 +17,19 @@ choco install -y sublimetext3
 choco install -y sublimetext3.PackageControl
 choco install -y vscode
 choco install -y slack
+choco install -y firefox
 
 #--- Visual Studio 2017 ---
-choco install visualstudio2017professional
+choco install -y visualstudio2017professional
 
 #--- VS Workloads ---
 choco install -y visualstudio2017-workload-netweb
 choco install -y visualstudio2017-workload-azure
 choco install -y visualstudio2017-workload-netcoretools
+
+
+choco install -y Microsoft-Hyper-V-All -source windowsFeatures
+choco install -y Microsoft-Windows-Subsystem-Linux -source windowsfeatures
 
 choco install -y gitextensions
 choco install -y kdiff3
@@ -44,7 +49,7 @@ choco install -y sql-server-management-studio
 choco install -y servicebusexplorer
 choco install -y cmder
 choco install -y azure-cli
-choco install -y azure-functions-core-tools  
+choco install -y azure-functions-core-tools
 
 
 Enable-UAC
