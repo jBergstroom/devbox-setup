@@ -14,7 +14,7 @@ Set-ItemProperty -Path HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\
 # ---- Tools ------
 choco install -y notepadplusplus.install
 choco install -y sublimetext3
-choco install -y sublimetext3.PackageControl
+choco install -y sublimetext3.packagecontrol
 choco install -y vscode
 choco install -y slack
 choco install -y firefox
